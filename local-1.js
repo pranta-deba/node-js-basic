@@ -1,4 +1,7 @@
 const add = (a, b) => a + b;
+const a = 50;
 
-// console.log(module)
-module.exports = add;
+module.exports = {
+    add,
+    a
+};
